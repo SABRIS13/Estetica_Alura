@@ -1,6 +1,6 @@
 body{
 
-    background:#CCCCCC;
+    background:#ffffe4;
 }
 
 h1,h2,h3,h4 {
@@ -14,5 +14,9 @@ p{
 }
 
 em strong{
-    color:blue;
+    color:#b59410;
+}
+
+#mision{
+    font-size: 20px;
 }
