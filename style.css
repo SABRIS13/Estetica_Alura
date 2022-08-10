@@ -3,9 +3,13 @@ body{
     background:#ffffe4;
 }
 
-h1,h2,h3,h4 {
+#banner{
+    width:100%;
+}
+
+h1 {
     text-align:center;
-    
+ 
 }
 
 p{
@@ -17,6 +21,8 @@ em strong{
     color:#b59410;
 }
 
+
 #mision{
     font-size: 20px;
 }
+
