@@ -1,5 +1,6 @@
 .titulo-principal{
     padding-left:30px;
+    color:#60460f;
 }
 
 #banner{
@@ -7,7 +8,7 @@
 }
 
 .principal{
-    background:#fffcc4;
+    background:#c4a661;
     padding: 20px;
 }
 
@@ -22,7 +23,7 @@ p{
 }
 
 em strong{
-    color:#b59410;
+    color:#ffffe4;
 }
 
 
@@ -31,7 +32,7 @@ em strong{
 }
 
 .diferenciales{
-    background: #FFFFFF ;
+    background: #FFFFFF ;  
     padding: 30px;
 }
 
@@ -48,7 +49,7 @@ ul{
 }
 
 .imagenDiferenciales{
-    width: 50%;
+    width: 30%;
 
 }
 
