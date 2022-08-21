@@ -28,9 +28,14 @@ nav a{
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 22x;
+    font-size: 20px;
     text-decoration: none;
 
+}
+
+nav a:hover{
+    color:#f1dba1;
+    text-decoration: underline;
 }
 
 .productos{
@@ -48,12 +53,25 @@ nav a{
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
+    border-radius:10px;
 
+}
+
+.productos li:hover{
+    border-color:#c4a661;
+}
+
+.productos li:active{
+    border-color:#f0b30a;
 }
 
 .productos h2{
     font-size: 25px;
     font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 28px;
 }
 .productos img{
     width:60%;
