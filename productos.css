@@ -1,15 +1,27 @@
 header{
     background-color:#c4a661;
+    padding:20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
 #logo{
-    width:150px;
+    width:180px;
+}
+
+nav{
+    position:absolute;
+    top:90px;
+    right:0;
 }
 
 nav li{
     display: inline;
     margin: 0 0 0 15px;
-
 }
 
 nav a{
