@@ -10,12 +10,12 @@ header{
 }
 
 #logo{
-    width:180px;
+    width:200px;
 }
 
 nav{
     position:absolute;
-    top:90px;
+    top:100px;
     right:0;
 }
 
@@ -31,4 +31,43 @@ nav a{
     font-size: 22x;
     text-decoration: none;
 
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding:50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width:30%;
+    vertical-align:top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+
+}
+
+.productos h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.productos img{
+    width:60%;
+    margin-top: 20px;
+}
+
+.producto-descripcion{
+    font-size:18px;
+    margin-top: 20px;
+
+}
+
+.producto-precio{
+    font-size:20px;
+    font-weight: bold;
+    margin-top:10px;
 }
