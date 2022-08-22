@@ -153,3 +153,18 @@ form label, form legend{
     background:#745e2b;
     transform:scale(1.2);
 }
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background:#534524;
+    color:#decda4;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
