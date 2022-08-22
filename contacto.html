@@ -12,7 +12,7 @@
 
             <div class="caja">
                 <h1>
-                    <img id="logo" src="images/alura.png">
+                    <img id="logo" src="images/alura.png" alt="Logo de la Estética Alura">
                 </h1>
 
                 <nav>
@@ -39,9 +39,9 @@
                 <label for="mensaje">Mensaje</label>
                 <textarea cols="68" rows="10" id="mensaje" class="input-padron" required></textarea>
 
-                <div>
+                <fieldset>
 
-                    <p>¿Cómo le gustaría que lo contactemos?</p>
+                    <legend>¿Cómo le gustaría que lo contactemos?</legend>
 
                     <label for="radio-email">
                         <input type="radio" name="contacto" value="email" id="radio-email">Email</label>
@@ -52,29 +52,50 @@
                     <label for="radio-whatsapp">
                         <input type="radio" name="contacto"  value="whatsapp" id="radio-whatsapp"checked>WhatsApp</label>
                     
-                </div> 
+                </fieldset> 
 
-                <div>
+                <fieldset>
                     
-                    <p>¿En qué horario le gustaría ser atentido?</p>
+                    <legend>¿En qué horario le gustaría ser atentido?</legend>
                     <select>
                         <option> Mañana</option>
                         <option> Tarde</option>
                         <option> Noche</option>
                     </select>
-                </div>
 
-                
-
+                </fieldset>
 
                 <label class="checkbox" ><input type="checkbox" checked> ¿Le gustaría recibir novedades de la Estética Alura?</label>
-                <input type="submit" value="Enviar formulario">
+                
+                <input type="submit" value="Enviar formulario" class="enviar">
                 
             </form>
 
+            <table>
+                <tr>
+                    <td>Día</td>
+                    <td>Horario</td>
+                </tr>
+
+                <tr>
+                    <td>Lunes</td>
+                    <td>08h ~ 20h</td>
+                </tr>
+
+                <tr>
+                    <td>Miércoles</td>
+                    <td>08h ~ 20h</td>
+                </tr>
+
+                <tr>
+                    <td>Viernes</td>
+                    <td>08h ~ 20h</td>
+                </tr>
+            </table>
+
         </main>
         <footer>
-            <img src="images/alura_blanco.png">
+            <img src="images/alura_blanco.png" alt="Logo de la Estética Alura en blanco">
             <p class="copyright"> &copy Copyright Estética Alura - 2022</p> 
          </footer>        
  
