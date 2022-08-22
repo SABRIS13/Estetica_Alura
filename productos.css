@@ -1,5 +1,5 @@
 header{
-    background-color:#c4a661;
+    background-color:#c4b286;
     padding:20px 0;
 }
 
@@ -34,7 +34,7 @@ nav a{
 }
 
 nav a:hover{
-    color:#f1dba1;
+    color:#745e2b;
     text-decoration: underline;
 }
 
@@ -52,17 +52,17 @@ nav a:hover{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 2px solid #534524;
     border-radius:10px;
 
 }
 
 .productos li:hover{
-    border-color:#c4a661;
+    border-color:#90660c;
 }
 
 .productos li:active{
-    border-color:#f0b30a;
+    border-color:#decda4;
 }
 
 .productos h2{
@@ -74,7 +74,7 @@ nav a:hover{
     font-size: 28px;
 }
 .productos img{
-    width:60%;
+    width:70%;
     margin-top: 20px;
 }
 
@@ -88,4 +88,23 @@ nav a:hover{
     font-size:20px;
     font-weight: bold;
     margin-top:10px;
+}
+
+
+footer{
+    text-align:center;
+    font-weight: bold;
+    background: url(images/fondo.jpg);
+    padding:40px;
+
+}
+
+footer img{
+    width:150px;
+    margin-bottom:15px;
+}
+
+.copyright{
+    color:#f2f1ec;
+    font-size:16px;
 }
