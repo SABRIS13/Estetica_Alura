@@ -1,3 +1,8 @@
+body{
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+}
+
 header{
     background-color:#c4a661;
     padding:20px 0;
@@ -109,12 +114,6 @@ footer img{
     font-size:16px;
 }
 
-main{
-    width: 940px;
-    margin:0 auto;
-
-}
-
 form{
     margin: 40px 0;
 }
@@ -168,3 +167,96 @@ td, th{
     border: 1px solid black;
     padding: 8px 15px;
 }
+
+/*CSS para home*/
+
+.banner{
+    width:100%;
+}
+
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin:0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin:0  0 1em;
+    clear:left;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style:italic;
+}
+
+.tools{
+    width: 280px;
+    float:left;
+    margin: 0 20px 20px 0;
+
+
+}
+
+.ubicacion{
+    padding: 2em 0;
+    background: linear-gradient(#FEFEFE,#ddc283);
+}
+
+.ubicacion p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido{
+    width: 940px;
+    margin:0 auto;
+}
+
+.diferenciales{
+    background:linear-gradient( #ddc283,#af8c3c);
+}
+.contenido-diferenciales{
+    width: 640px;
+    margin:2em auto;
+}
+
+.lista-diferenciales{
+ width:45%;
+ display: inline-block;
+ vertical-align:top;
+}
+
+.items{
+    line-height:1.5;
+}
+
+.items:before{
+    content: "✂ ";
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
+.imagen-diferenciales{
+    width:55%;
+}
+
+.video{
+    width:560px;
+    height:360px;
+    margin: 0 auto;
+}
+
+
