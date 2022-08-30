@@ -188,6 +188,7 @@ td, th{
     clear:left;
 }
 
+
 .principal p{
     margin: 0 0 1em;
 }
@@ -251,6 +252,13 @@ td, th{
 
 .imagen-diferenciales{
     width:55%;
+    transition:400ms;
+    box-shadow:10px 10px 30px 10px rgb(143, 101, 28);
+    
+}
+
+.imagen-diferenciales:hover{
+    opacity: 0.6;
 }
 
 .video{
@@ -259,4 +267,22 @@ td, th{
     margin: 0 auto;
 }
 
+@media screen and (max-width:480px){
 
+    h1{
+        text-align: center;
+    }
+    nav{
+        position:static;
+    }
+    .caja,.principal,.mapa-contenido, .contenido-diferenciales, .video, .productos{
+        width:auto;
+    }
+
+    .lista-diferenciales, .imagen-diferenciales,.productos li{
+        width:100%;
+    }
+
+
+
+}
