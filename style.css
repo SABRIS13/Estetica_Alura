@@ -115,13 +115,13 @@ footer img{
 }
 
 form{
-    margin: 40px 0;
+    margin: 45px;
 }
 
 form label, form legend{
     display:block;
     font-size:18px;
-    margin: 0 0 10px;
+    margin: 2px 0 10px;
 }
 
 .input-padron{
@@ -281,6 +281,11 @@ td, th{
 
     .lista-diferenciales, .imagen-diferenciales,.productos li{
         width:100%;
+        margin: 8px auto;
+    }
+
+    .enviar{
+        font-size: 13px;
     }
 
 
